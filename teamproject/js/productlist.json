@@ -1,0 +1,239 @@
+
+{"maindata" : [
+{
+
+"bedroom" : [
+    {       
+        "name" :"GUNNLAUG 군라우그 흡음커튼, 화이트, 145x250 cm",
+        "detailinfo" :"GUNNLAUG 군라우그 흡음커튼, 화이트, 145x250 cm",
+        "price" : 59900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "color" :  ["white", "gray"] ,
+        "image" : "GUNNLAUG 군라우그 흡음커튼, 화이트, 145x250 cm.jpg"
+    },
+    {
+        "name" :"IKORNNES 이코르네스 전신거울, 물푸레나무, 52x167 cm",
+        "detailinfo" :"IKORNNES 이코르네스 전신거울, 물푸레나무, 52x167 cm",
+        "price" : 169000,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "image" : "IKORNNES 이코르네스 전신거울, 물푸레나무, 52x167 cm.jpg"
+    },
+    {       
+        "name" :"BJÖRKSNÄS 비에르크스네스 침대협탁, 자작나무, 48x38 cm",
+        "detailinfo" :"BJÖRKSNÄS 비에르크스네스 침대협탁, 자작나무, 48x38 cm",
+        "price" : 59900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "image" : "BJÖRKSNÄS 비에르크스네스 침대협탁, 자작나무, 48x38 cm.jpg"
+    },
+    {       
+        "name" :"DOMSTEN 돔스텐 스툴, 오렌지_소나무",
+        "detailinfo" :"DOMSTEN 돔스텐 스툴, 오렌지_소나무",
+        "price" : 59900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "color":["orange","purple","green"],
+        "image" : "DOMSTEN 돔스텐 스툴, 오렌지_소나무.jpg"
+    },
+    {       
+        "name" :"KRYPKORNELL 크륍코르넬 재단 패브릭, 잎 패턴_멀티컬러, 라이트, 150x300 cm",
+        "detailinfo" :"KRYPKORNELL 크륍코르넬 재단 패브릭, 잎 패턴_멀티컬러, 라이트, 150x300 cm",
+        "price" : 29900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "image" : "KRYPKORNELL 크륍코르넬 재단 패브릭, 잎 패턴_멀티컬러, 라이트, 150x300 cm.jpg"
+    },
+    {       
+        "name" :"SLÖJSILJA 슬뢰이실리아 이불커버+베개커버, 라이트블루_화이트_스트라이프, 150x200_50x80 cm",
+        "detailinfo" :"SLÖJSILJA 슬뢰이실리아 이불커버+베개커버, 라이트블루_화이트_스트라이프, 150x200_50x80 cm",
+        "price" : 59900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "image" : "SLÖJSILJA 슬뢰이실리아 이불커버+베개커버, 라이트블루_화이트_스트라이프, 150x200_50x80 cm.jpg"
+    },
+    {       
+        "name" :"SYMFONISK 쉼포니스크 스피커조명본체+WiFi, 화이트_스마트",
+        "detailinfo" :"SYMFONISK 쉼포니스크 스피커조명본체+WiFi, 화이트_스마트",
+        "price" : 199900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "SYMFONISK 쉼포니스크 스피커조명본체+WiFi, 화이트_스마트.jpg"
+    },
+    {       
+        "name" :"KOLLUND 콜룬드 평직러그, 핸드메이드 그레이, 170x240 cm",
+        "detailinfo" :"KOLLUND 콜룬드 평직러그, 핸드메이드 그레이, 170x240 cm",
+        "price" : 429900,
+        "bcategory" : "침실상품",
+        "mcategory": "상품",
+        "image" : "KOLLUND 콜룬드 평직러그, 핸드메이드 그레이, 170x240 cm.jpg"
+    }
+    
+
+],
+
+"livingroom" : [
+    {
+        "name" :"BERGIG 베리그",
+        "detailinfo" :"BERGIG 베리그",
+        "price" : 19900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "BERGIG 베리그.jpg"
+    },
+    {
+        "name" :"BESTÅ 베스토 TV장식장+도어, 화이트_셀스비켄 하이글로스_화이트, 180x42x38 cm",
+        "detailinfo" :"BESTÅ 베스토 TV장식장+도어, 화이트_셀스비켄 하이글로스_화이트, 180x42x38 cm",
+        "price" : 289900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "BESTÅ 베스토 TV장식장+도어, 화이트_셀스비켄 하이글로스_화이트, 180x42x38 cm.jpg"
+    },
+    {
+        "name" :"GLADOM 글라돔 트레이테이블, 다크그레이-베이지, 45x53 cm",
+        "detailinfo" :"GLADOM 글라돔 트레이테이블, 다크그레이-베이지, 45x53 cm",
+        "price" : 19900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "GLADOM 글라돔 트레이테이블, 다크그레이-베이지, 45x53 cm.jpg"
+    },
+    {
+        "name" :"ODDNY 오드뉘 쿠션커버, 오프화이트_도트 무늬 블랙, 50x50 cm",
+        "detailinfo" :"ODDNY 오드뉘 쿠션커버, 오프화이트_도트 무늬 블랙, 50x50 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "ODDNY 오드뉘 쿠션커버, 오프화이트_도트 무늬 블랙, 50x50 cm.jpg"
+    },
+    {
+        "name" :"SKÅDIS 스코디스 선반, 화이트",
+        "detailinfo" :"SKÅDIS 스코디스 선반, 화이트",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "SKÅDIS 스코디스 선반, 화이트.jpg"
+    },
+    {
+        "name" :"TIPHEDE 팁헤데 평직러그, 내추럴_블랙, 120x180 cm",
+        "detailinfo" :"TIPHEDE 팁헤데 평직러그, 내추럴_블랙, 120x180 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "TIPHEDE 팁헤데 평직러그, 내추럴_블랙, 120x180 cm.jpg"
+    },
+    {
+        "name" :"TOLKNING 톨크닝 수납벤치, 핸드메이드 라탄, 120 cm",
+        "detailinfo" :"TOLKNING 톨크닝 수납벤치, 핸드메이드 라탄, 120 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "TOLKNING 톨크닝 수납벤치, 핸드메이드 라탄, 120 cm.jpg"
+    },
+    {
+        "name" :"UTÅKER 우토케르 적층식 침대, 소나무, 80x200 cm",
+        "detailinfo" :"UTÅKER 우토케르 적층식 침대, 소나무, 80x200 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "image" : "UTÅKER 우토케르 적층식 침대, 소나무, 80x200 cm.jpg"
+    }
+
+],
+"kitchen": [
+    {
+        "name" :"FÄRGKLAR 페리클라르 그릇, 유광 베이지, 16 cm",
+        "detailinfo" :"FÄRGKLAR 페리클라르 그릇, 유광 베이지, 16 cm",
+        "price" : 59900,
+        "bcategory" : "주방상품",
+        "mcategory": "상품",
+        "image" : "FÄRGKLAR 페리클라르 그릇, 유광 베이지, 16 cm.jpg"
+},
+{
+    "name" :"IKEA 365+ 이케아 365+ 뚜껑, 원형_대나무",
+        "detailinfo" :"IKEA 365+ 이케아 365+ 뚜껑, 원형_대나무",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "IKEA 365+ 이케아 365+ 뚜껑, 원형_대나무.jpg"
+},
+{
+    "name" :"IKEA 365+ 이케아 365+ 식품보관용기, 직사각_플라스틱, 1.0 l",
+        "detailinfo" :"IKEA 365+ 이케아 365+ 식품보관용기, 직사각_플라스틱, 1.0 l",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "IKEA 365+ 이케아 365+ 식품보관용기, 직사각_플라스틱, 1.0 l.jpg"
+},
+{
+    "name" :"LENNART 렌나르트 서랍유닛, 화이트",
+        "detailinfo" :"LENNART 렌나르트 서랍유닛, 화이트",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "LENNART 렌나르트 서랍유닛, 화이트.jpg"
+},
+{
+    "name" :"RINNIG 린니그 접시꽂이",
+        "detailinfo" :"RINNIG 린니그 접시꽂이",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "RINNIG 린니그 접시꽂이.jpg"
+},
+{
+    "name" :"RINNIG 린니그 행주, 화이트_다크그레이_패턴, 45x60 cm",
+        "detailinfo" :"RINNIG 린니그 행주, 화이트_다크그레이_패턴, 45x60 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "RINNIG 린니그 행주, 화이트_다크그레이_패턴, 45x60 cm.jpg"
+},
+{
+    "name" :"STÖDJA 스퇴디아 다용도트레이, 화이트, 20x50 cm",
+        "detailinfo" :"STÖDJA 스퇴디아 다용도트레이, 화이트, 20x50 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "STÖDJA 스퇴디아 다용도트레이, 화이트, 20x50 cm.jpg"
+},
+{
+    "name" :"STÖDJA 스퇴디아 식기도구트레이, 화이트, 31x50 cm",
+        "detailinfo" :"STÖDJA 스퇴디아 식기도구트레이, 화이트, 31x50 cm",
+        "price" : 59900,
+        "bcategory" : "거실상품",
+        "mcategory": "상품",
+        "color":["black","white"],
+        "image" : "STÖDJA 스퇴디아 식기도구트레이, 화이트, 31x50 cm.jpg"
+}
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+}
+
+]}
