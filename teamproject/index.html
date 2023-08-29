@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/rwd.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    
     <div id="top_info" class="row">
         <div class="best">
             <span><i class="fa-solid fa-basket-shopping"></i></span>
@@ -21,13 +20,6 @@
             <span><i class="fa-solid fa-phone"></i></span>
             <span>쉽고 편한 전화 주문, 헤이오더</span>
         </div>
-    </div>
-    <div class="opensidemenu">
-        <button>
-            <span>
-                <i class="fa-solid fa-bars"></i>
-            </span>
-        </button>
     </div>
     <div class="sidemenu-button">
         <div class="bar">
@@ -59,6 +51,7 @@
                     <li class="join"><a href="#"><i class="fa-regular fa-user"></i><span>Hej!로그인 또는 가입하기</span></a></li>
                     <li class="liked"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
                     <li class="shopping"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
+                    <li class="opensidemenu"><button><span><i class="fa-solid fa-bars"></i></span></button></li>
                 </ul>
             </div>
         </div>
@@ -138,9 +131,7 @@
             <div class="center">
                 <a href="#">
                     <div class="img">
-                        <span>
-                            <img src="./image/PH193109-crop001.avif" alt="">
-                        </span>
+                        <img src="./image/PH193109-crop001.avif" alt="">
                     </div>
                     <div class="box">
                         <p>라이프 스타일 솔루션</p>
@@ -785,11 +776,33 @@
             </div>
         </div>
     </footer>
+    <div class="QnA">
+        <div class="QnA-btn">
+          <span><i class="fa-regular fa-message"></i></span>
+        </div>          
+        <div class="QnA-box">
+            <div class="QnAb-header">
+                <h2>IKEA 채팅에 오신 것을 환영합니다!</h2>
+                <button class="QnAb-closebtn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="QnAb-body">
+                <span class="QnAb-input"><input type="checkbox"><p>본인은 <a href="">개인 정보 처리 방침</a> 에 대한 정보를 받았으며, 고객 지원 경험을 최적화하기 위해 본인의 정보가 저장된다는 사실에 동의합니다.</p></span>
+                <button>
+                    <span>
+                        <span>채팅 시작</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="anchor">
+            <a href=""><i class="fa-solid fa-chevron-up"></i><span>맨 위로 이동</span></a>
+    </div>
     <script>
         $('.ikeabtn').click(function(){
             $(this).css("border-bottom", "4px solid #0058A3");
         });
-
+        // 메인 사이드바
         $(function(){
             $('.sidemenu-button').click(function(){
                 $('sidemenu-button').hide()
@@ -809,8 +822,8 @@
                 $('.overlay').fadeOut()
                 $('.sidemenu-button').show()
             })
-
         });
+        // 상품 미니 팝업
         $(document).ready(function() {
             $("#miniInfo > li").hover(
             function() {
@@ -821,14 +834,23 @@
                 }
             );
         });
-        
-        
-        
+        // QnA-Box
+        $(function(){
+            $('.QnA-btn').click(function(){
+                $(this).hide()
+                $('.QnA-box').fadeIn('active')  
+            })
 
+            $('.QnAb-closebtn').click(function(){
+                $('.QnA-box').fadeOut('active')
+                $('.QnA-btn').show()
+            })
+            
+        })
     </script>
+    
     <script>
-       
-
+        //  홈 퍼니싱 텝 메뉴  
         $(document).ready(function(){
             $('.productInfo button').click(function(){
                 $('.productInfo button.active').removeClass("active").css("border", "none")

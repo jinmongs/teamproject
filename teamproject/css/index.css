@@ -5,29 +5,20 @@ ul, ol { list-style: none; }
 a { text-decoration:none; color:inherit }
 button { border:none; cursor:pointer; }
 ::placeholder { font-weight: bold;}
-img { max-width: 960px; }
+img { max-width:960px; }
 .row {
-    max-width: 1900px;
+    max-width: 2140px;
     margin: 0 auto;
     padding: 0 10px;
-}
-#top_info { display:block; background: #000; 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 100%;
-
 }
 #top_info { background: #000 ; color:#fff; font-size:13px; display: inline-flex; text-align: center; width:100%; 
     justify-content: center; padding: 10px 0;
 }
 #top_info span i { margin-right: 5px; }
 #top_info .heyorder { margin-left: 60px }
-.opensidemenu { display:none; }
 .sidemenu-button { width:180px; display:flex; 
     flex-direction: column; text-align: center; ; padding-left:80px;
-    float:left; clear:both;
+    float:left; 
     position:sticky; top:0;
     z-index:100;
 }
@@ -35,11 +26,11 @@ img { max-width: 960px; }
 .sidemenu-button .bar { line-height: 50px; padding-top:10px }
 .sidemenu-button .bar button {width:40px; height: 40px; border-radius: 40px;}
 .sidemenu-button button { background: none; font-size: 14px;}
-#header { width:100%; height: 92px; }
-#header .header_container { width:90%; height: 92px; margin:0 auto; }
-#header .header_container .header_box { height: 92px; display:flex; align-items: center; position:relative}
+#header { width:95%; height: 92px; }
+#header .header_container { width:85%; height: 92px; margin:0 auto; }
+#header .header_container .header_box { height: 92px; display:flex; align-items: center; position:relative; }
 #header .header_container .header_box .search_box { width: 80%; padding: 0 60px 0 45px; position:relative; }
-#header .header_container .search_box input:focus { outline-color:#0058A3;}
+#header .header_container .header_box .search_box input:focus { outline-color:#0058A3;}
 #header .header_container .header_box .search_box .fa-magnifying-glass { position:absolute; top:35%; left:5%; }
 #header .header_container .header_box .search_box .fa-camera-retro { position:absolute; top:35%; right:7%; }
 #header .header_container .header_box .search_box input { padding: 15px 58px 15px 48px; width: 100%; 
@@ -48,6 +39,7 @@ img { max-width: 960px; }
 #header .header_container .header_box .user{ display: flex; justify-content: flex-end;
     width: 20%; justify-content: space-between;
 }
+#header .header_container .header_box .user li:last-child { display:none }
 #header .header_container .header_box .user span { font-size: 14px; margin-left: 10px; }
 
 .overlay { position:fixed; top:0; width:100%; height:100%; background: rgba(0, 0, 0, 0.7);
@@ -119,9 +111,9 @@ img { max-width: 960px; }
 
 #header-nav { display:flex; 
     border-bottom: 1px solid #f5f5f5;
-    width:86%;
+    width:81%;
     justify-content: space-between;
-    margin:0px 0px 0 170px;
+    margin:0px 0px 0 180px;
     
 }
 #header-nav .left-menu { display:flex;
@@ -160,10 +152,10 @@ img { max-width: 960px; }
     padding:13px 1px; text-align: center;
     background: #fff;
 }
-#section .article1 .center { position:relative; width:100% }
-#section .article1 .center img { width:100%; height: 100%; }
+#section .article1 .center { position:relative; width:90%; height: 100%;}
+#section .article1 .center img { width:100%; height: 590px; }
 #section .article1 .center .box { background: #87bed3 ; color:#fff;
-    width:43%; height:540px; position:absolute; top:0; left:960px;
+    width:43%; height:590px; position:absolute; top:0; left:960px;
     padding:48px 64px 48px 48px; 
 }
 #section .article1 .center .box p:first-child { font-size: 12px;}
@@ -262,7 +254,7 @@ img { max-width: 960px; }
 
 #section .article2 .productImg .every { display:none;}
 #footer { background: #f5f5f5; margin-top: 64px; padding-top:64px; 
-    height: 900px;
+    height: 850px
 }
 #section .article2 .productImg .shoppinghelp { display: none; }
 #section .article2 .productImg .shoppinghelp.active {
@@ -350,3 +342,28 @@ img { max-width: 960px; }
     display: block;
     padding-bottom: 50px;
 }
+.QnA { background: none; width:76px; height:76px; position:fixed; bottom:20px; right:20px;
+    z-index:999; }
+.QnA .QnA-btn { width:56px; height:56px; background: #F9D716; 
+    display:flex; justify-content: center; align-items: center; margin:10px; 
+    border-radius: 50px; box-shadow: 2px 4px 10px rgba(0, 0, 0, .25); cursor: pointer; 
+}
+.QnA .QnA-btn i { font-size: 20px; }
+.QnA .QnA-btn:hover { background: #d8ba11; transition:0.5s }
+.QnA .QnA-box { display:none; position: absolute; bottom:25px; right:30px; width:415px; height: 486px; background: #fff; border-radius: 5px; box-shadow:2px 4px 10px rgba(0,0,0,.25)}
+.QnA .QnA-box.active { display: block; transition: all 0.3s; }
+.QnA .QnA-box .QnAb-header { padding:0 20px; height:60px; display:flex; justify-content: space-between; align-items: center; background: #F9D716; border-radius: 5px; }
+.QnA .QnA-box .QnAb-header h2 { font-size:16px; }
+.QnA .QnA-box .QnAb-header button { width:36px; height: 30px; font-size: 16px; background: none;}
+.QnA .QnA-box .QnAb-body { margin-top:30px; padding:0 20px; height:396px; display:flex; flex-direction: column; justify-content: space-between;}
+.QnA .QnA-box .QnAb-body .QnAb-input { display:flex; font-size: 14px; }
+.QnA .QnA-box .QnAb-body input { width:44px; height:68px; cursor: pointer;}
+.QnA .QnA-box .QnAb-body p { padding-left:16px; }
+.QnA .QnA-box .QnAb-body p a { text-decoration: underline; }
+.QnA .QnA-box .QnAb-body button { width:375px; height:56px; padding:0 32px; margin-bottom: 20px; border-radius: 50px; background: #dfdfdf;}
+.QnA .QnA-box .QnAb-body button span { font-size: 14px; color:#959595}
+.anchor { position:fixed; bottom:20px; left:120px; display:inlien-flex; }
+.anchor a i { padding: 10px; background: #000; color:#fff; width:40px; height:40px; line-height:20px; position:relative; z-index: 99; border-radius: 40px; text-align: center;}
+.anchor a span { background: #000; color:white; width:180px; height: 40px; position:absolute; left:0; top:0;
+    text-align: center; line-height: 36px; border-radius: 20px; font-size: 14px; display:none; transition: 0.7s;}
+    .anchor:hover span{ display:block; }
