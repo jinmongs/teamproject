@@ -37,7 +37,7 @@ img { max-width:960px; }
     border-radius: 30px; border:none; background: #f5f5f5;
 }
 #header .header_container .header_box .user{ display: flex; justify-content: flex-end;
-    width: 20%; justify-content: space-between;
+    width: 270px; justify-content: space-between;
 }
 #header .header_container .header_box .user li:last-child { display:none }
 #header .header_container .header_box .user span { font-size: 14px; margin-left: 10px; }
@@ -181,49 +181,49 @@ img { max-width:960px; }
     align-items: center;
 }
 /* 홈 퍼니싱 dot 좌표 */
-#section .article2 .productImg .ul-every-a { position:absolute; top:250px; left:205px; }
-#section .article2 .productImg .ul-every-ba { position:absolute; top:120px; left:722px; }
-#section .article2 .productImg .ul-every-bb { position:absolute; top:370px; left:740px; }
-#section .article2 .productImg .ul-every-bc { position:absolute; top:300px; left:600px; }
-#section .article2 .productImg .ul-every-ca { position:absolute; top:70px; right:270px; }
-#section .article2 .productImg .ul-every-cb { position:absolute; top:260px; right:190px; }
-#section .article2 .productImg .ul-every-cc { position:absolute; top:380px; right:250px; }
-#section .article2 .productImg .ul-bed-a { position:absolute; top:300px; left:200px; }
-#section .article2 .productImg .ul-bed-ab { position:absolute; top:520px; left:70px; }
-#section .article2 .productImg .ul-bed-ba { position:absolute; top:330px; left:530px; }
-#section .article2 .productImg .ul-bed-bb { position:absolute; top:520px; left:700px; }
-#section .article2 .productImg .ul-bed-bc { position:absolute; top:100px; left:680px; }
-#section .article2 .productImg .ul-bed-ca { position:absolute; top:250px; right:10px; }
-#section .article2 .productImg .ul-bed-cb { position:absolute; top:400px; right:200px; }
-#section .article2 .productImg .ul-bed-cc { position:absolute; top:520px; right:5px; }
-#section .article2 .productImg .ul-living-a { position:absolute; top:80px; left:180px; }
-#section .article2 .productImg .ul-living-ab { position:absolute; top:280px; left:220px; }
-#section .article2 .productImg .ul-living-ac { position:absolute; top:570px; left:200px; }
-#section .article2 .productImg .ul-living-ba { position:absolute; top:40px; left:750px; }
-#section .article2 .productImg .ul-living-bb { position:absolute; top:300px; left:830px; }
-#section .article2 .productImg .ul-living-bc { position:absolute; top:400px; left:600px; }
-#section .article2 .productImg .ul-living-ca { position:absolute; top:310px; right:130px; }
-#section .article2 .productImg .ul-living-cb { position:absolute; top:500px; right:140px; }
-#section .article2 .productImg .ul-kitchen-a { position:absolute; top:170px; left:130px; }
-#section .article2 .productImg .ul-kitchen-ab { position:absolute; top:450px; left:200px; }
-#section .article2 .productImg .ul-kitchen-ac { position:absolute; top:450px; left:120px; }
-#section .article2 .productImg .ul-kitchen-ba { position:absolute; top:350px; left:500px; }
-#section .article2 .productImg .ul-kitchen-bb { position:absolute; top:400px; left:600px; }
-#section .article2 .productImg .ul-kitchen-bc { position:absolute; top:360px; left:750px; }
-#section .article2 .productImg .ul-kitchen-ca { position:absolute; top:250px; right:350px; }
-#section .article2 .productImg .ul-kitchen-cb { position:absolute; top:180px; right:250px; }
-#section .article2 .productImg .ul-kitchen-cc { position:absolute; top:350px; right:200px; }
+#section .article2 .productImg .ul-every-a { position:absolute; top:40%; left:13%; }
+#section .article2 .productImg .ul-every-ba { position:absolute; top:20%; left:48%; }
+#section .article2 .productImg .ul-every-bb { position:absolute; top:55%; left:50%; }
+#section .article2 .productImg .ul-every-bc { position:absolute; top:50%; left:40%; }
+#section .article2 .productImg .ul-every-ca { position:absolute; top:10%; right:17%; }
+#section .article2 .productImg .ul-every-cb { position:absolute; top:40%; right:11%; }
+#section .article2 .productImg .ul-every-cc { position:absolute; top:55%; right:15%; }
+#section .article2 .productImg .ul-bed-a { position:absolute; top:30%; left:14%; }
+#section .article2 .productImg .ul-bed-ab { position:absolute; top:82%; left:3%; }
+#section .article2 .productImg .ul-bed-ba { position:absolute; top:52%; left:35%; }
+#section .article2 .productImg .ul-bed-bb { position:absolute; top:85%; left:45%; }
+#section .article2 .productImg .ul-bed-bc { position:absolute; top:15%; left:46%; }
+#section .article2 .productImg .ul-bed-ca { position:absolute; top:35%; right:1%; }
+#section .article2 .productImg .ul-bed-cb { position:absolute; top:65%; right:15%; }
+#section .article2 .productImg .ul-bed-cc { position:absolute; top:82%; right:0.8%; }
+#section .article2 .productImg .ul-living-a { position:absolute; top:10%; left:13%; }
+#section .article2 .productImg .ul-living-ab { position:absolute; top:45%; left:15%; }
+#section .article2 .productImg .ul-living-ac { position:absolute; top:90%; left:13%; }
+#section .article2 .productImg .ul-living-ba { position:absolute; top:5%; left:50%; }
+#section .article2 .productImg .ul-living-bb { position:absolute; top:43%; left:57%; }
+#section .article2 .productImg .ul-living-bc { position:absolute; top:65%; left:40%; }
+#section .article2 .productImg .ul-living-ca { position:absolute; top:50%; right:10%; }
+#section .article2 .productImg .ul-living-cb { position:absolute; top:80%; right:10%; }
+#section .article2 .productImg .ul-kitchen-a { position:absolute; top:25%; left:10%; }
+#section .article2 .productImg .ul-kitchen-ab { position:absolute; top:74%; left:13%; }
+#section .article2 .productImg .ul-kitchen-ac { position:absolute; top:70%; left:6%; }
+#section .article2 .productImg .ul-kitchen-ba { position:absolute; top:55%; left:33%; }
+#section .article2 .productImg .ul-kitchen-bb { position:absolute; top:60%; left:41%; }
+#section .article2 .productImg .ul-kitchen-bc { position:absolute; top:58%; left: 50%; }
+#section .article2 .productImg .ul-kitchen-ca { position:absolute; top:45%; right:25%; }
+#section .article2 .productImg .ul-kitchen-cb { position:absolute; top:33%; right:20%; }
+#section .article2 .productImg .ul-kitchen-cc { position:absolute; top:60%; right:20%; }
 /* 홈 퍼니싱 dot 좌표 */
 #section .article2 .productImg > div { text-align: center; position:relative; }
 #section .article2 .productImg span img { width:32%; border-radius: 10px; }
 #section .article2 .productImg .secondimg { margin: 0px 10px; } 
 #section .article2 .productImg ul { width:132px ; align-items: center; }
 #section .article2 .productImg ul li { display:flex; flex-direction: column; width:130px; }
-#section .article2 .productImg ul li > a i { font-size:35px; 
+#section .article2 .productImg ul li > a i { font-size:30px; 
     color:#fff; 
     margin-bottom: 15px;
     border:1px solid rgba(0, 0, 0, 0.1); border-radius: 20px;
-    line-height: 35px;
+    line-height: 30px;
 }
 #section .article2 .productImg ul li > a i:hover { border:1.5px solid #007cc1; border-radius: 20px; transition: 0.3s;}
 #section .article2 .productImg ul li > div { margin:0px; width:150px; background: #fff; height:120px;
@@ -251,14 +251,15 @@ img { max-width:960px; }
     margin-left: 10px;
 
 }
-
 #section .article2 .productImg .every { display:none;}
-#footer { background: #f5f5f5; margin-top: 64px; padding-top:64px; 
-    height: 850px
-}
+
 #section .article2 .productImg .shoppinghelp { display: none; }
 #section .article2 .productImg .shoppinghelp.active {
     display:block;
+}
+
+#footer { background: #f5f5f5; margin-top: 64px; padding-top:64px; 
+    height: 850px
 }
 #footer .footerbox { width:80%; display:flex; position:relative; }
 #footer .footerbox .footercontainer { margin-bottom:62px; width: 40%; height: 470px;; padding-right:130px; }
@@ -329,10 +330,11 @@ img { max-width:960px; }
 #footer .footerbox .footericon .footerchange .footer_language span { display: inline-block; position: absolute; top:8px; right:10px; }
 #footer .footerbox .footerbottom { position:absolute; bottom:-80px; left:0; 
  display: flex; height: 92px; font-size: 12px; align-items: center;
+ width:100%; justify-content: space-between;
 }
 
 #footer .footerbox .footerbottom .copylight { display: flex; margin: 40px 0 32px; }
-#footer .footerbox .footerbottom .legalLinks ul { display: flex; margin: 0 0 0 830px}
+#footer .footerbox .footerbottom .legalLinks ul { display: flex; }
 #footer .footerbox .footerbottom .legalLinks ul li { margin-left:17px; }
 #footer .footerbox .footerbottom .legalLinks ul li:hover { text-decoration: underline; }
 
@@ -360,8 +362,9 @@ img { max-width:960px; }
 .QnA .QnA-box .QnAb-body input { width:44px; height:68px; cursor: pointer;}
 .QnA .QnA-box .QnAb-body p { padding-left:16px; }
 .QnA .QnA-box .QnAb-body p a { text-decoration: underline; }
-.QnA .QnA-box .QnAb-body button { width:375px; height:56px; padding:0 32px; margin-bottom: 20px; border-radius: 50px; background: #dfdfdf;}
-.QnA .QnA-box .QnAb-body button span { font-size: 14px; color:#959595}
+.QnA .QnA-box .QnAb-body button span { font-size: 14px; color:#fff}
+.QnA .QnA-box .QnAb-body button:disabled { width:375px; height:56px; padding:0 32px; margin-bottom: 20px; border-radius: 50px; background: #dfdfdf; cursor: not-allowed;}
+.QnA .QnA-box .QnAb-body button { width:375px; height:56px; padding:0 32px; margin-bottom: 20px; border-radius: 50px; background: #000; color:#fff; cursor:pointer; }
 .anchor { position:fixed; bottom:20px; left:120px; display:inlien-flex; }
 .anchor a i { padding: 10px; background: #000; color:#fff; width:40px; height:40px; line-height:20px; position:relative; z-index: 99; border-radius: 40px; text-align: center;}
 .anchor a span { background: #000; color:white; width:180px; height: 40px; position:absolute; left:0; top:0;

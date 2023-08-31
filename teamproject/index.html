@@ -48,7 +48,7 @@
                     <span><i class="fa-solid fa-camera-retro"></i></span>
                 </div>
                 <ul class="user">
-                    <li class="join"><a href="#"><i class="fa-regular fa-user"></i><span>Hej!로그인 또는 가입하기</span></a></li>
+                    <li class="join"><a href="./login.html"><i class="fa-regular fa-user"></i><span>Hej!로그인 또는 가입하기</span></a></li>
                     <li class="liked"><a href="#"><i class="fa-regular fa-heart"></i></a></li>
                     <li class="shopping"><a href="#"><i class="fa-solid fa-basket-shopping"></i></a></li>
                     <li class="opensidemenu"><button><span><i class="fa-solid fa-bars"></i></span></button></li>
@@ -677,9 +677,9 @@
             </div>
             <div class="footerlist">
                 <ul>
-                    <li>
+                    <li class="footerlist_li">
                         <h3>고객 문의</h3>
-                        <ul>
+                        <ul class="footerlist_tab">
                             <li>고객지원</li>
                             <li>자주 묻는 질문</li>
                             <li>문의하기</li>
@@ -691,9 +691,9 @@
                             <li>부품 신청</li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="footerlist_li">
                         <h3>쇼핑하기</h3>
-                        <ul>
+                        <ul class="footerlist_tab">
                             <li>쇼핑하기</li>
                             <li>헤이오더</li>
                             <li>IKEA for Business</li>
@@ -705,9 +705,9 @@
                             <li>기프트 카드</li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="footerlist_li">
                         <h3>서비스</h3>
-                        <ul>
+                        <ul class="footerlist_tab">
                             <li>IKEA 서비스</li>
                             <li>배송 서비스</li>
                             <li>조립 서비스</li>
@@ -718,9 +718,9 @@
                             <li>바이백 서비스</li>
                         </ul>
                     </li>
-                    <li>
+                    <li class="footerlist_li">
                         <h3>IKEA 이야기</h3>
-                        <ul>
+                        <ul class="footerlist_tab">
                             <li>브랜드 소개</li>
                             <li>집에서의 생활</li>
                             <li>지속가능한 생활</li>
@@ -786,8 +786,8 @@
                 <button class="QnAb-closebtn"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="QnAb-body">
-                <span class="QnAb-input"><input type="checkbox"><p>본인은 <a href="">개인 정보 처리 방침</a> 에 대한 정보를 받았으며, 고객 지원 경험을 최적화하기 위해 본인의 정보가 저장된다는 사실에 동의합니다.</p></span>
-                <button>
+                <span class="QnAb-input"><input type="checkbox" id="agreecheck"><p>본인은 <a href="">개인 정보 처리 방침</a> 에 대한 정보를 받았으며, 고객 지원 경험을 최적화하기 위해 본인의 정보가 저장된다는 사실에 동의합니다.</p></span>
+                <button id="chatbtn">
                     <span>
                         <span>채팅 시작</span>
                     </span>
@@ -805,7 +805,6 @@
         // 메인 사이드바
         $(function(){
             $('.sidemenu-button').click(function(){
-                $('sidemenu-button').hide()
                 $('.sidemenu').addClass('active')
                 $('.overlay').fadeIn()
             });
@@ -814,13 +813,29 @@
             $('.sidemenu_close').click(function(){
                 $('.sidemenu').removeClass('active')
                 $('.overlay').fadeOut()
-                $('.sidemenu-button').show()
             });
 
             $('.overlay').on('click', function(){
                 $('.sidemenu').removeClass('active')
                 $('.overlay').fadeOut()
-                $('.sidemenu-button').show()
+            })
+        });
+        // 1199px 사이드바
+        $(function(){
+            $('.opensidemenu').click(function(){
+                $('.sidemenu').addClass('active')
+                $('.overlay').fadeIn()
+            });
+
+            
+            $('.sidemenu_close').click(function(){
+                $('.sidemenu').removeClass('active')
+                $('.overlay').fadeOut()
+            });
+
+            $('.overlay').on('click', function(){
+                $('.sidemenu').removeClass('active')
+                $('.overlay').fadeOut()
             })
         });
         // 상품 미니 팝업
@@ -847,8 +862,18 @@
             })
             
         })
+        $(document).ready(function(){
+            $("#agreecheck").on("change", function() {
+                if ($(this).is(":checked")) {
+                  $("#chatbtn").prop("disabled", false) 
+                } else {
+                    $("#chatbtn").prop("disabled", true) 
+                }
+                
+            })
+        })
     </script>
-    
+
     <script>
         //  홈 퍼니싱 텝 메뉴  
         $(document).ready(function(){
@@ -860,6 +885,32 @@
                 $(".productImg .shoppinghelp").eq(productIndex).addClass("active");
             })
         })
+
+        // header 로그인 버튼 스크립트
+        let myid = sessionStorage.getItem("id")
+        let mypw = sessionStorage.getItem("pw")
+        if (myid && mypw) {
+            $('.join a').eq(0).attr({
+                href : "javascript:;"
+            }).text("로그아웃")}
+        
+        $('.join a').eq(0).on('click', function(){
+            let text = $(this).text()
+            if (text == '로그아웃') {
+                sessionStorage.clear()
+                localStorage.clear()
+                location.href = './index.html'
+                }
+        })
+
+        // $(document).ready(function(){
+        //     $(".footerlist_li h3").click(function(){
+        //         $(this).next(".footerlist_tab").toggle()
+        //         // $(this).next(".footerlist_tab").delay(1100).fadeIn()
+        //     })
+        // })
+
+        
     </script>
 </body>
 </html>
